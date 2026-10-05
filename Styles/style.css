@@ -1,5 +1,6 @@
 .nav-links {
   display: none;
+  list-style: none;
 }
 
 .menu-checkbox {
@@ -33,7 +34,10 @@
   }
 
   .nav-links {
+    justify-content: center; 
     display: flex;
+    padding-left: 0px;
+    gap: 30px;
   }
 
 }
