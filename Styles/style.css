@@ -9,3 +9,19 @@
 .menu-checkbox:checked ~ .nav-links {
   display: block;
 }
+
+.nav-toggle {
+  display: flex;             
+  align-items: center;      
+  justify-content: center;   
+  min-width: 42px;           
+  min-height: 42px;          
+  cursor: pointer;           
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  min-height: 42px;
+  min-width: 42px;
+}
