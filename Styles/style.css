@@ -6,3 +6,6 @@
   display: none;
 }
 
+.menu-checkbox:checked ~ .nav-links {
+  display: block;
+}
